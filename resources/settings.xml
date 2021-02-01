@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="30100"><!--Expert-->
+    <setting label="30120" type="text" enable="false"/><!--Info message-->
+    <setting id="enable_debug" type="bool" label="30101" default="false"/>
+    <setting id="debug_ssdp_server" type="bool" label="30103" default="false" enable="eq(-1,true)" subsetting="true"/>
+    <setting id="debug_dial_server" type="bool" label="30102" default="false" enable="eq(-2,true)" subsetting="true"/>
+    <setting id="debug_apps" type="bool" label="30104" default="false" enable="eq(-3,true)" subsetting="true"/>
+    <setting label="30110" type="lsep"/><!--Development-->
+    <setting id="use_internal_apps" type="bool" label="30111" default="false"/>
+  </category>
+</settings>
